@@ -64,7 +64,7 @@ Mass-Spring-Damper-MATLAB/
 
 ## Results
 
-![Response comparison](results/Vergleich.png)
+![Response comparison](Vergleich.png)
 
 | Metric                    | Linear Damping | Nonlinear Damping |
 | ------------------------- | -------------- | ----------------- |
@@ -77,10 +77,10 @@ Mass-Spring-Damper-MATLAB/
 
 | Plot | Description |
 |------|-------------|
-| ![Excitation force](results/Erregerkraft.png) | Excitation force F(t) |
-| ![Linear damping](results/Konstante_Daempfung.png) | Linear damping response |
-| ![Nonlinear damping](results/Variable_Daempfung.png) | Nonlinear damping response |
-| ![Lookup Table](results/Daempfung_Look-Up_Table.png) | 1-D Lookup Table characteristic |
+| ![Excitation force](Erregerkraft.png) | Excitation force F(t) |
+| ![Linear damping](Konstante_Daempfung.png) | Linear damping response |
+| ![Nonlinear damping](Variable_Daempfung.png) | Nonlinear damping response |
+| ![Lookup Table](Daempfung_Look-Up_Table.png) | 1-D Lookup Table characteristic |
 
 ### System Characteristics
 
