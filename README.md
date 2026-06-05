@@ -80,7 +80,7 @@ Mass-Spring-Damper-MATLAB/
 | ![Excitation force](Erregerkraft.png) | Excitation force F(t) |
 | ![Linear damping](Konstante_Daempfung.png) | Linear damping response |
 | ![Nonlinear damping](Variable_Daempfung.png) | Nonlinear damping response |
-| ![Lookup Table](Daempfung_Look-Up_Table.png) | 1-D Lookup Table characteristic |
+| ![Lookup Table](Daempfung_LookUpTable.png) | 1-D Lookup Table characteristic |
 
 ### System Characteristics
 
