@@ -21,7 +21,7 @@ with 300 001 data points over a 30-second time span.
 | Steady-state displacement     | 2.775 mm (both cases) |
 | Amplitude reduction           | 31.8 %  |
 
-![MATLAB Command Window output](results/Masseschwinger_Konstant.png)
+![MATLAB Command Window output](Masseschwinger_Konstant.png)
 
 ---
 
@@ -29,7 +29,7 @@ with 300 001 data points over a 30-second time span.
 
 The following four plots summarize the simulation results:
 
-![All simulation plots](results/Vergleich.png)
+![All simulation plots](Vergleich.png)
 
 **Top left — Excitation force F(t):**
 Three distinct phases are clearly visible: no excitation before t = 1 s,
@@ -57,7 +57,7 @@ The amplitude reduction of 31.8% is clearly visible.
 
 ### Model 1 — Linear Damping (`Masseschwinger_Konstant.slx`)
 
-![Simulink linear model](results/Masseschwinger_Konstant.png)
+![Simulink linear model](Masseschwinger_Konstant.png)
 
 The model implements the state-space form of the second-order ODE directly.
 
@@ -78,7 +78,7 @@ The model implements the state-space form of the second-order ODE directly.
 
 ### Model 2 — Nonlinear Damping (`Masseschwinger_Variabel.slx`)
 
-![Simulink nonlinear model](results/Masseschwinger_Variabel.png)
+![Simulink nonlinear model](Masseschwinger_Variabel.png)
 
 The structure is identical to Model 1, with one key difference:
 the constant `Gain_D` block is replaced by a **1-D Lookup Table** (`LUT_D`).
@@ -89,7 +89,7 @@ the constant `Gain_D` block is replaced by a **1-D Lookup Table** (`LUT_D`).
 - Interpolation method: linear
 - Data source: provided by course instructor
 
-![LUT block parameters](results/Masseschwinger_Variabel2.png)
+![LUT block parameters](Masseschwinger_Variabel2.png)
 
 The Lookup Table breakpoints and table data entered in the block dialog:
 
@@ -110,7 +110,7 @@ The Lookup Table breakpoints and table data entered in the block dialog:
 
 ## Comparison of Results
 
-![Comparison](results/Vergleich.png)
+![Comparison](Vergleich.png)
 
 | Metric                    | Linear Damping | Nonlinear Damping |
 | ------------------------- | -------------- | ----------------- |
